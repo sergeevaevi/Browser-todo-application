@@ -1,0 +1,34 @@
+.container__begin_svg, .container__congrats_svg {
+    width: 380px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.container__begin_svg p,
+.container__congrats_svg p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #252526;
+    margin-top: 10px;
+}
+
+.container__begin_svg p + p,
+.container__congrats_svg p + p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+
+    color: #A5A5A5;
+}
