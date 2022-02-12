@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Today todo-app new tab extension",
+	"version": "1.0",
+	"description": "Awesome lightweight todo app that lives right in a new tab.",
+	"icons": {
+		"16": "images/today-logo.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-inline' 'unsafe-hashes' data:http://www.w3.org/2000/svg https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js https://ajax.googleapis.com https://code.jquery.com/jquery-3.2.1.js https://code.jquery.com 'unsafe-inline' cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js https://*; object-src 'self' 'unsafe-inline' 'unsafe-hashes' https://* http://www.w3.org/2000/svg https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js; style-src 'self' 'unsafe-inline' 'unsafe-hashes' http://www.w3.org/2000/svg; "
+}
